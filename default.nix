@@ -1,4 +1,4 @@
-{ pkgs ? import <nixpkgs> {} } 
+{ pkgs ? import <nixpkgs> {} }:
       
 rec {
   tegola = callPackage ./pkgs/tegola { };
