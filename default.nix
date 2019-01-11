@@ -1,7 +1,7 @@
 { pkgs ? import <nixpkgs> {} }:
       
 rec {
-  tegola = callPackage ./pkgs/tegola { };
+  tegola = pkgs.callPackage ./pkgs/tegola { };
 
   modules = import ./modules;
 } 
