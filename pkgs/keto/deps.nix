@@ -25,9 +25,9 @@
     goPackagePath = "git.apache.org/thrift.git";
     fetch = {
       type = "git";
-      url = "git.apache.org/thrift";
+      url = "https://github.com/apache/thrift";
       rev = "2566ecd5d999";
-      sha256 = "0sjjj9z1dhilhpc8pq4154czrb79z9cm044jvn75kxcjv6v5l2m5";
+      sha256 = "14gl0j85x3hj3gncf417f8zf92phrpvkj4clxmvbcq1dcgjdn6mc";
     };
   }
 
@@ -997,7 +997,7 @@
       type = "git";
       url = "https://github.com/segmentio/backo-go";
       rev = "204274ad699c";
-      sha256 = "0nhpqlhaag535d0vqydwhnx4dyn5d8329h5w9mnwkbbrhvnd8y4x";
+      sha256 = "1cyizry0lzwirkx1z1rvfl6iwz9vad0sdsf2vjz753g3sq67q320";
     };
   }
 
@@ -1107,7 +1107,7 @@
       type = "git";
       url = "https://github.com/uber/jaeger-client-go";
       rev = "v2.15.0";
-      sha256 = "1qvqkf20dp5fyfg7qd3jc29q1yv0qjz2mkxa02j1v3n8ka134rff";
+      sha256 = "0ki23m9zrf3vxp839fnp9ckr4m28y6mpad8g5s5lr5k8jkl0sfwj";
     };
   }
 
