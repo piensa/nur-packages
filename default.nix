@@ -10,5 +10,6 @@ rec {
   blender = pkgs.callPackage ./pkgs/blender { };
   kepler = pkgs.callPackage ./pkgs/kepler { };
   colombia = pkgs.callPackage ./pkgs/colombia { };
+  jamaica = pkgs.callPackage ./pkgs/jamaica { };
   modules = import ./modules;
 } 
