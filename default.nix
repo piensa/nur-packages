@@ -9,6 +9,7 @@ rec {
   imposm = pkgs.callPackage ./pkgs/imposm { };
   blender = pkgs.callPackage ./pkgs/blender { };
   kepler = pkgs.callPackage ./pkgs/kepler { };
+  fresco = pkgs.callPackage ./pkgs/fresco { };
   colombia = pkgs.callPackage ./pkgs/colombia { };
   jamaica = pkgs.callPackage ./pkgs/jamaica { };
   modules = import ./modules;
