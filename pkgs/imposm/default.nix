@@ -1,7 +1,7 @@
 { stdenv, buildGoPackage, fetchgit, fetchhg, fetchbzr, fetchsvn, leveldb, geos }:
 
 buildGoPackage rec {
-  name = "imposm-unstable-${version}";
+  name = "imposm-${version}";
   version = "2019-02-08";
   rev = "37464958ac6a88ddeb0cc8eb7da7ed59dd4017da";
 
