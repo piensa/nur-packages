@@ -2,7 +2,8 @@
 
 yarn2nix.mkYarnPackage {
   name = "fresco";
-
+  yarnNix = ./yarn.nix;
+  yarnLock = ./yarn.lock;
 
   preInstall = ''
     yarn build
@@ -15,10 +16,13 @@ yarn2nix.mkYarnPackage {
     rm -rf $out/bin
   '';
 
+  patches = [ ./0001-fresco-changes.patch ];
+
+
   src = fetchgit {
-    rev = "5b0a30d";
-    url = "https://github.com/piensa/fresco";
-    sha256 = "0p0fk5r5813hhsy2cyiz584yzdmwwda56a04apz9h3i88yhqi4wd";
+    rev = "5c6be2353338e4fe481e1784a4c8fdf5f25ea17e";
+    url = "https://github.com/go-spatial/fresco";
+    sha256 = "15mrii51k8ba7apyxp721xp3214l5lxz5hh91yyzygyxvswyl0p4";
   };
 
 }
