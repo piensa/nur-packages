@@ -12,6 +12,7 @@ rec {
   kepler = pkgs.callPackage ./pkgs/kepler { };
   fresco = pkgs.callPackage ./pkgs/fresco { };
   colombia = pkgs.callPackage ./pkgs/colombia { };
+  puertico-osm = pkgs.callPackage ./pkgs/puertico-osm { };
   jamaica = pkgs.callPackage ./pkgs/jamaica { };
   modules = import ./modules;
 } 
