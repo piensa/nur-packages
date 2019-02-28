@@ -5,7 +5,7 @@ rec {
   hydra = pkgs.callPackage ./pkgs/hydra { };
   keto = pkgs.callPackage ./pkgs/keto { };
   oathkeeper = pkgs.callPackage ./pkgs/oathkeeper { };
-  consentido = pkgs.callPackage ./pkgs/consentido { };
+  logico = pkgs.callPackage ./pkgs/logico { };
   packr = pkgs.callPackage ./pkgs/packr { };
   imposm = pkgs.callPackage ./pkgs/imposm { };
   blender = pkgs.callPackage ./pkgs/blender { };

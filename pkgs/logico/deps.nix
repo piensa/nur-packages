@@ -46,15 +46,6 @@
     };
   }
   {
-    goPackagePath = "github.com/piensa/puertico";
-    fetch = {
-      type = "git";
-      url = "https://github.com/piensa/puertico";
-      rev = "c0b7ad32f94338945ea615d1e4c3be2c78d871ae";
-      sha256 = "0qj55jl17r7hdblypck1crfwrzaimf50s3332qmsdkllla3nwxas";
-    };
-  }
-  {
     goPackagePath = "github.com/pkg/errors";
     fetch = {
       type = "git";
