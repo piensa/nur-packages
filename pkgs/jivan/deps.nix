@@ -32,8 +32,8 @@
     fetch = {
       type = "git";
       url = "https://github.com/getkin/kin-openapi";
-      rev =  "82a13f94c08e2a85812f8b0d4f971e22d86b7203";
-      sha256 = "1265zdppmvr6dc24fyyxzha997ghmjf7dkdjdv7012pjwp3w2x39";
+      rev =  "b743c9cc2841b94d9db3d4628abd6ee0b684d1f4";
+      sha256 = "00grxs3g99lx0yhg96v7ahhckz0d69n2fb061rqavcfznnljsd7j";
     };
   }
   {
@@ -49,18 +49,18 @@
     goPackagePath  = "github.com/go-spatial/geom";
     fetch = {
       type = "git";
-      url = "https://github.com/go-spatial/geom";
-      rev =  "f17435486cbd6050e263bb253f53172d7d3864f8";
-      sha256 = "0lk2z4qy5yhv4pbl4ak2iac8adqycfxynnysyfrxi25pcc8a9jv6";
+      url = "https://github.com/ingenieroariel/geom";
+      rev =  "400d050c18b5b942f53f093eabe2ce6d49fdb034";
+      sha256 = "1rvnfijn80rap7gjs5acymzfq1x89a1ldz20wyn586fdw8vimyvl";
     };
   }
   {
     goPackagePath  = "github.com/go-spatial/tegola";
     fetch = {
       type = "git";
-      url = "https://github.com/go-spatial/tegola";
-      rev =  "ddcbdc745fde11f970b960be0a5eb5fe38f1ee87";
-      sha256 = "1lzkcda80w0jdynzjg08lr2gg40nri59dz61q8phgcn2803f04nl";
+      url = "https://github.com/ingenieroariel/tegola";
+      rev =  "e8feb990efc2af3af5c793f2b443f2f7d65bdfa7";
+      sha256 = "11gnrarnma085kldy3cd5kfs74k2364bi9a06y6p0bfimidnfxir";
     };
   }
   {

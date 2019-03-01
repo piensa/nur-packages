@@ -1,9 +1,6 @@
-{ stdenv, fetchgit, fetchhg, fetchbzr, fetchsvn }:
-let
- oldpkgs = import (builtins.fetchTarball https://github.com/NixOS/nixpkgs/archive/release-17.09.tar.gz) {};
- buildGo18Package = oldpkgs.buildGo18Package;
-in
-buildGo18Package rec {
+{ stdenv, buildGoPackage, fetchgit, fetchhg, fetchbzr, fetchsvn }:
+
+buildGoPackage rec {
   name = "jivan-unstable-${version}";
   version = "2018-03-28";
   rev = "5bf0b77";
