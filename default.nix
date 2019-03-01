@@ -2,6 +2,8 @@
       
 rec {
   tegola = pkgs.callPackage ./pkgs/tegola { };
+#  geocatalogo = pkgs.callPackage ./pkgs/geocatalogo { };
+  jivan = pkgs.callPackage ./pkgs/jivan { };
   hydra = pkgs.callPackage ./pkgs/hydra { };
   keto = pkgs.callPackage ./pkgs/keto { };
   oathkeeper = pkgs.callPackage ./pkgs/oathkeeper { };
