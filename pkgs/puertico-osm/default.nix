@@ -6,7 +6,8 @@ stdenv.mkDerivation {
   inherit coreutils;
   src = fetchgit { 
     url = "https://github.com/piensa/puertico-osm";
-    sha256 = "0h1vb7l147rac1zp5bgwv1sn6krin4wzzkidpb82ywjabqmpkxn9";
+    rev = "7d09644b8a73ed354a862e154f5a98dbdbe57577";
+    sha256 = "0z6h07my5g1ma854frpyxy8pw6miz0rmbxpbc00yw3xh6acqa8xl";
   };
 }
 
