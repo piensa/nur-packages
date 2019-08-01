@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
     url = "https://git.blender.org/blender.git";
     deepClone = true;
     rev = "v2.80";
-    sha256 = "1yrb38kbr7kifi0xizs2ccfbq43hdr061harkcyfncx8cx20bqcl";
+    sha256 = "1qnivgzvq12hi42c4ysyvlddik9lwbvw31pwb8mjkjas0bw8akf0";
   };
 
   buildInputs =
