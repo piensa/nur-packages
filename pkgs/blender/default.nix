@@ -4,7 +4,7 @@
 , libtiff, libGLU_combined, openal, opencolorio, openexr, openimageio, openjpeg_1, pythonPackages, python37
 , zlib, fftw, opensubdiv, freetype, jemalloc, ocl-icd
 , jackaudioSupport ? false, libjack2
-, cudaSupport ? true, cudatoolkit
+, cudaSupport ? false, cudatoolkit
 , colladaSupport ? true, opencollada
 , enableNumpy ? false, makeWrapper
 }:
