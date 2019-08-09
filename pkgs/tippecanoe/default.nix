@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
   meta = with stdenv.lib; {
     description = "Build vector tilesets from large collections of GeoJSON features";
     homepage = https://github.com/mapbox/tippecanoe;
-    license = licenses.bsd;
+    license = licenses.bsd2;
     platforms = [ "x86_64-linux" ];
     maintainers = [ maintainers.ingenieroariel ];
   };
