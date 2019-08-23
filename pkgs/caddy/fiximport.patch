@@ -1,0 +1,23 @@
+From 9faa3b5690e3a8c717599b344b4e41367ef5b18e Mon Sep 17 00:00:00 2001
+From: Ariel <ingenieroariel@gmail.com>
+Date: Fri, 23 Aug 2019 10:58:56 -0500
+Subject: [PATCH] Fix caddyconfig import in admin.go
+
+---
+ admin.go | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/admin.go b/admin.go
+index 95a327694..c87ef95d0 100644
+--- a/admin.go
++++ b/admin.go
+@@ -30,7 +30,7 @@ import (
+ 	"sync"
+ 	"time"
+ 
+-	"github.com/caddyserver/caddy/caddyconfig"
++	"github.com/caddyserver/caddy/v2/caddyconfig"
+ 	"github.com/mholt/certmagic"
+ 	"github.com/rs/cors"
+ )
+

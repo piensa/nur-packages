@@ -18,6 +18,7 @@ rec {
   reva = pkgs.callPackage ./pkgs/reva { };
   dbxcli = pkgs.callPackage ./pkgs/dbxcli { };
   tippecanoe = pkgs.callPackage ./pkgs/tippecanoe { };
+  caddy = pkgs.callPackage ./pkgs/caddy { };
   bemenu = pkgs.callPackage ./pkgs/bemenu { };
 #  jamaica = pkgs.callPackage ./pkgs/jamaica { };
 #  modules = import ./modules;
