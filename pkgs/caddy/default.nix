@@ -15,9 +15,10 @@ in buildGoPackage12 rec {
     sha256 = "1n7i9w4vva5x5wry7gzkyfylk39x40ykv7ypf1ca3zbbk7w5x6mw";
   };
 
+  CGO_ENABLED = 0;
+
   buildFlagsArray = ''
-    -ldflags=
-      -X github.com/caddyserver/caddy/v2/caddy/caddymain.gitTag=v${version}
+     -ldflags="-s -X github.com/caddyserver/caddy/v2/caddy/caddymain.gitTag=v${version}" -a -installsuffix cgo
   '';
 
   meta = with stdenv.lib; {
