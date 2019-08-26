@@ -19,6 +19,7 @@ rec {
   dbxcli = pkgs.callPackage ./pkgs/dbxcli { };
   tippecanoe = pkgs.callPackage ./pkgs/tippecanoe { };
   caddy = pkgs.callPackage ./pkgs/caddy { };
+  caddy2 = pkgs.callPackage ./pkgs/caddy2 { };
   bemenu = pkgs.callPackage ./pkgs/bemenu { };
 #  jamaica = pkgs.callPackage ./pkgs/jamaica { };
 #  modules = import ./modules;

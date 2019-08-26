@@ -3,17 +3,18 @@ let
   buildGoPackage12 = buildGoPackage.override { go=go_1_12; };
 in buildGoPackage12 rec {
   name = "caddy-${version}";
-  version = "1.0.3";
+  version = "2";
   goPackagePath = "github.com/caddyserver/caddy";
   goDeps = ./deps.nix;
-  subPackages = [ "caddy" ];
-
+  subPackages = [ "cmd/caddy" ];
+  patches = [ ./fiximport.patch ];
   src = fetchFromGitHub {
     owner = "caddyserver";
     repo = "caddy";
     rev = "v${version}";
-    sha256 = "1n7i9w4vva5x5wry7gzkyfylk39x40ykv7ypf1ca3zbbk7w5x6mw";
+    sha256 = "12a8pnjhndhkbpkfm8nn61c0nxxn16dpcihsymcvax2jy5j2sq61";
   };
+  modSha256 = "0h2r1jivcar924vv0lyablmjxzzarhkb8sjq8zi59dp34hcwpr08";
 
   buildFlagsArray = ''
     -ldflags=
