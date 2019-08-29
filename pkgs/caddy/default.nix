@@ -18,7 +18,7 @@ in buildGoPackage12 rec {
   CGO_ENABLED = 0;
 
   buildFlagsArray = ''
-     -ldflags="-s -X github.com/caddyserver/caddy/v2/caddy/caddymain.gitTag=v${version}" -a -installsuffix cgo
+     -ldflags="-s -X github.com/caddyserver/caddy/caddy/caddymain.gitTag=v${version}" -a -installsuffix cgo
   '';
 
   meta = with stdenv.lib; {
